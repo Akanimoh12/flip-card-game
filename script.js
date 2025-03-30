@@ -10,7 +10,7 @@ const cardsArray = [
 
 let flippedCards = [];
 let matchedPairs = 0;
-let lives = 5;
+let lives = 10;
 
 restartButton.addEventListener('click', restartGame);
 
