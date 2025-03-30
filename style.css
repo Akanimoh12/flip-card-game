@@ -1,9 +1,10 @@
 /* styles.css */
 body {
-    margin: 0;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 200px; */
     min-height: 100vh;
     background: #F5DEB3; /* Beige wooden floor */
     font-family: 'Comic Sans MS', cursive; /* Cartoon font */
@@ -11,6 +12,7 @@ body {
 
 .game-container {
     text-align: center;
+    
 }
 
 h1 {
@@ -34,6 +36,7 @@ h1 {
     grid-template-columns: repeat(4, 150px);
     grid-gap: 20px;
     margin-top: 20px;
+    
 }
 
 .card {
